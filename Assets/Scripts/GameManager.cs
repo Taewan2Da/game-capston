@@ -202,7 +202,7 @@ public class GameManager : MonoBehaviour
         int maxScore = Mathf.Max(score, PlayerPrefs.GetInt("MaxScore"));
         PlayerPrefs.SetInt("MaxScore", maxScore);
 
-        subScoreText.text = "Á¡¼ö : " + scoreText.text;
+        subScoreText.text = "Score : " + scoreText.text;
         endGroup.SetActive(true);
 
         bgmPlayer.Stop();
